@@ -1,0 +1,102 @@
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+	height: 100%;
+	background-repeat: no-repeat ;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-image: url(imagens/tela.jpg);
+}
+
+.navJog{
+	width: 128px;
+	height: 128px;
+	background-image: url(imagens/nave1.png);
+	position: absolute;
+}
+
+.telaMsg{
+	position: absolute;
+	margin-left: -25%;
+	top: 50px;
+	left: 50%;
+	width: 500px;
+	height: 500px;
+	display: none;
+}
+#medidorPlaneta{
+	border: 2px solid #000;
+	width: 300px;
+	height: 20px;
+	background: #fff;
+}
+
+#barraPlaneta{
+	width: 300px;
+	height: 20px;
+	background: #EC7063;
+}
+.tiroJog{
+	width: 50px;
+	height:50px;
+	/*background-color: yellow;
+	border-radius: 6px;*/
+	background-image: url(imagens/mis2.gif);
+	position: absolute;
+}
+
+.bomba{
+	width: 99px;
+	height: 67px;
+	background-image: url(imagens/nave12.gif);
+	position: absolute;
+}
+
+h1 {
+	color: white;
+
+}
+
+.explosaoChao{
+	width: 157px;
+	height: 229px;
+	position: absolute;
+}
+
+.explosaoAr{
+	width: 210px;
+	height: 200px;
+	position: absolute;
+}
+.telaMsg{
+	position: absolute;
+	top: 244%;
+	left: 990px;
+	width: 500px;
+	height: 500px;
+	display: none;
+}
+
+.btnJogar {
+  background-color: #EC7063; 
+  border: none;
+  color: white;
+  position: absolute;
+  top: 80%;
+  left: 32%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+  box-shadow: 1px 1px 20px 9px rgba(255, 11, 11),0 17px 50px 0 rgba(0,0,0,0.19);
+}
